@@ -71,7 +71,7 @@ public:
 
     // Getters
     BSPNode *getRoot() const { return root; }
-    size_t getRootPolygonsCount() const { return root ? root->getPolygons().size() : 0; }
+    //    size_t getRootPolygonsCount() const { return root ? root->getPolygons().size() : 0; }
 
     // Setters
     void setRoot(BSPNode *root) { this->root = root; }

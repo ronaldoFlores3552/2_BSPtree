@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o"
+  "CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o.d"
+  "CMakeFiles/BSPTreeProject.dir/Line.cpp.o"
+  "CMakeFiles/BSPTreeProject.dir/Line.cpp.o.d"
+  "CMakeFiles/BSPTreeProject.dir/Plane.cpp.o"
+  "CMakeFiles/BSPTreeProject.dir/Plane.cpp.o.d"
   "CMakeFiles/BSPTreeProject.dir/main.cpp.o"
   "CMakeFiles/BSPTreeProject.dir/main.cpp.o.d"
   "bin/BSPTreeProject"

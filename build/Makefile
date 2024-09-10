@@ -155,6 +155,78 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+BSPTree.o: BSPTree.cpp.o
+.PHONY : BSPTree.o
+
+# target to build an object file
+BSPTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o
+.PHONY : BSPTree.cpp.o
+
+BSPTree.i: BSPTree.cpp.i
+.PHONY : BSPTree.i
+
+# target to preprocess a source file
+BSPTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.i
+.PHONY : BSPTree.cpp.i
+
+BSPTree.s: BSPTree.cpp.s
+.PHONY : BSPTree.s
+
+# target to generate assembly for a file
+BSPTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.s
+.PHONY : BSPTree.cpp.s
+
+Line.o: Line.cpp.o
+.PHONY : Line.o
+
+# target to build an object file
+Line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Line.cpp.o
+.PHONY : Line.cpp.o
+
+Line.i: Line.cpp.i
+.PHONY : Line.i
+
+# target to preprocess a source file
+Line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Line.cpp.i
+.PHONY : Line.cpp.i
+
+Line.s: Line.cpp.s
+.PHONY : Line.s
+
+# target to generate assembly for a file
+Line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Line.cpp.s
+.PHONY : Line.cpp.s
+
+Plane.o: Plane.cpp.o
+.PHONY : Plane.o
+
+# target to build an object file
+Plane.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Plane.cpp.o
+.PHONY : Plane.cpp.o
+
+Plane.i: Plane.cpp.i
+.PHONY : Plane.i
+
+# target to preprocess a source file
+Plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Plane.cpp.i
+.PHONY : Plane.cpp.i
+
+Plane.s: Plane.cpp.s
+.PHONY : Plane.s
+
+# target to generate assembly for a file
+Plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/Plane.cpp.s
+.PHONY : Plane.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -190,6 +262,15 @@ help:
 	@echo "... clean-all"
 	@echo "... run"
 	@echo "... BSPTreeProject"
+	@echo "... BSPTree.o"
+	@echo "... BSPTree.i"
+	@echo "... BSPTree.s"
+	@echo "... Line.o"
+	@echo "... Line.i"
+	@echo "... Line.s"
+	@echo "... Plane.o"
+	@echo "... Plane.i"
+	@echo "... Plane.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

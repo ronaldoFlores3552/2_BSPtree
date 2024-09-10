@@ -83,12 +83,12 @@ clean: CMakeFiles/run.dir/clean
 CMakeFiles/BSPTreeProject.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BSPTreeProject.dir/build.make CMakeFiles/BSPTreeProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=1,2 "Built target BSPTreeProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target BSPTreeProject"
 .PHONY : CMakeFiles/BSPTreeProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BSPTreeProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BSPTreeProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 0
 .PHONY : CMakeFiles/BSPTreeProject.dir/rule
@@ -109,7 +109,7 @@ CMakeFiles/BSPTreeProject.dir/clean:
 CMakeFiles/clean-all.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean-all.dir/build.make CMakeFiles/clean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=3 "Built target clean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=6 "Built target clean-all"
 .PHONY : CMakeFiles/clean-all.dir/all
 
 # Build rule for subdir invocation for target.
@@ -135,12 +135,12 @@ CMakeFiles/clean-all.dir/clean:
 CMakeFiles/run.dir/all: CMakeFiles/BSPTreeProject.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=4 "Built target run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=7 "Built target run"
 .PHONY : CMakeFiles/run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles 0
 .PHONY : CMakeFiles/run.dir/rule

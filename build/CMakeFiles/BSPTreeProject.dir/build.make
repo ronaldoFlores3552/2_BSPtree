@@ -83,17 +83,65 @@ CMakeFiles/BSPTreeProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BSPTreeProject.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/main.cpp -o CMakeFiles/BSPTreeProject.dir/main.cpp.s
 
+CMakeFiles/BSPTreeProject.dir/Line.cpp.o: CMakeFiles/BSPTreeProject.dir/flags.make
+CMakeFiles/BSPTreeProject.dir/Line.cpp.o: ../Line.cpp
+CMakeFiles/BSPTreeProject.dir/Line.cpp.o: CMakeFiles/BSPTreeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BSPTreeProject.dir/Line.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BSPTreeProject.dir/Line.cpp.o -MF CMakeFiles/BSPTreeProject.dir/Line.cpp.o.d -o CMakeFiles/BSPTreeProject.dir/Line.cpp.o -c /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Line.cpp
+
+CMakeFiles/BSPTreeProject.dir/Line.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BSPTreeProject.dir/Line.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Line.cpp > CMakeFiles/BSPTreeProject.dir/Line.cpp.i
+
+CMakeFiles/BSPTreeProject.dir/Line.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BSPTreeProject.dir/Line.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Line.cpp -o CMakeFiles/BSPTreeProject.dir/Line.cpp.s
+
+CMakeFiles/BSPTreeProject.dir/Plane.cpp.o: CMakeFiles/BSPTreeProject.dir/flags.make
+CMakeFiles/BSPTreeProject.dir/Plane.cpp.o: ../Plane.cpp
+CMakeFiles/BSPTreeProject.dir/Plane.cpp.o: CMakeFiles/BSPTreeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BSPTreeProject.dir/Plane.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BSPTreeProject.dir/Plane.cpp.o -MF CMakeFiles/BSPTreeProject.dir/Plane.cpp.o.d -o CMakeFiles/BSPTreeProject.dir/Plane.cpp.o -c /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Plane.cpp
+
+CMakeFiles/BSPTreeProject.dir/Plane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BSPTreeProject.dir/Plane.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Plane.cpp > CMakeFiles/BSPTreeProject.dir/Plane.cpp.i
+
+CMakeFiles/BSPTreeProject.dir/Plane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BSPTreeProject.dir/Plane.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/Plane.cpp -o CMakeFiles/BSPTreeProject.dir/Plane.cpp.s
+
+CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o: CMakeFiles/BSPTreeProject.dir/flags.make
+CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o: ../BSPTree.cpp
+CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o: CMakeFiles/BSPTreeProject.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o -MF CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o.d -o CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o -c /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/BSPTree.cpp
+
+CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/BSPTree.cpp > CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.i
+
+CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/BSPTree.cpp -o CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.s
+
 # Object files for target BSPTreeProject
 BSPTreeProject_OBJECTS = \
-"CMakeFiles/BSPTreeProject.dir/main.cpp.o"
+"CMakeFiles/BSPTreeProject.dir/main.cpp.o" \
+"CMakeFiles/BSPTreeProject.dir/Line.cpp.o" \
+"CMakeFiles/BSPTreeProject.dir/Plane.cpp.o" \
+"CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o"
 
 # External object files for target BSPTreeProject
 BSPTreeProject_EXTERNAL_OBJECTS =
 
 bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/main.cpp.o
+bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/Line.cpp.o
+bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/Plane.cpp.o
+bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o
 bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/build.make
 bin/BSPTreeProject: CMakeFiles/BSPTreeProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/BSPTreeProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin/BSPTreeProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BSPTreeProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

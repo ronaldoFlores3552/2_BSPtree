@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/BSPTreeProject.dir/main.cpp.o -o bin/BSPTreeProject 
+/usr/bin/g++ -g CMakeFiles/BSPTreeProject.dir/main.cpp.o CMakeFiles/BSPTreeProject.dir/Line.cpp.o CMakeFiles/BSPTreeProject.dir/Plane.cpp.o CMakeFiles/BSPTreeProject.dir/BSPTree.cpp.o -o bin/BSPTreeProject 
