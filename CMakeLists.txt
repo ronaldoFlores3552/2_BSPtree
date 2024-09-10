@@ -8,9 +8,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Añadir los archivos fuente y cabecera
 set(SOURCES
     main.cpp
-    Line.cpp
-    Plane.cpp
-    BSPTree.cpp
+    # Line.cpp
+    # Plane.cpp
+    # BSPTree.cpp
 )
 set(HEADERS
     DataType.h

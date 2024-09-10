@@ -1,0 +1,5 @@
+/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles/BSPTreeProject.dir
+/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles/clean-all.dir
+/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles/run.dir
+/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles/edit_cache.dir
+/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build/CMakeFiles/rebuild_cache.dir

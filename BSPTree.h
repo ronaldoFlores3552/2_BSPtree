@@ -2,21 +2,22 @@
 #define BSP_H
 
 #include "DataType.h"
-#include "Point.h"
-#include "Line.h"
-#include "Plane.h"
+
+#include "Polygon.h"
 #include <vector>
 
-class BSPNode {
+class BSPNode
+{
 private:
     BSPNode *front;
-    BSPNode * back;
+    BSPNode *back;
     Plane partition;
     std::vector<Polygon> polygons;
 
 public:
     BSPNode(const Plane &partition) : partition(partition), front(nullptr), back(nullptr) {}
-    ~BSPNode() {
+    ~BSPNode()
+    {
         delete front;
         delete back;
     }
@@ -37,35 +38,39 @@ public:
     void setPolygons(std::vector<Polygon> polygons) { this->polygons = polygons; }
 
     // Detect collision with a line
-    const Polygon* detectCollision(const LineSegment& traceLine) const;
+    const Polygon *detectCollision(const LineSegment &traceLine) const;
 
     // Get number of polygons in the subtree
-    size_t getPolygonsCount() const {
+    size_t getPolygonsCount() const
+    {
         size_t count = polygons.size();
-        if (front) {
+        if (front)
+        {
             count += front->getPolygonsCount();
         }
-        if (back) {
+        if (back)
+        {
             count += back->getPolygonsCount();
         }
         return count;
     }
 };
 
-
-class BSPTree {
+class BSPTree
+{
 private:
     BSPNode *root;
 
 public:
     BSPTree() : root(nullptr) {}
-    ~BSPTree() {
+    ~BSPTree()
+    {
         delete root;
     }
 
     // Getters
     BSPNode *getRoot() const { return root; }
-    size_t   getRootPolygonsCount() const { return root ? root->polygons.size() : 0; }
+    size_t getRootPolygonsCount() const { return root ? root->getPolygons().size() : 0; }
 
     // Setters
     void setRoot(BSPNode *root) { this->root = root; }
@@ -74,12 +79,13 @@ public:
     void insert(const Polygon &polygon);
 
     // Detect collision with a line
-    const Polygon* detectCollision(const LineSegment& traceLine) const{
+    const Polygon *detectCollision(const LineSegment &traceLine) const
+    {
         return root ? root->detectCollision(traceLine) : nullptr;
     }
 
     // Get number of polygons in the tree
-    size_t getRootPolygonsCount() const { return root ? root->polygons.size() : 0; }
+    size_t getRootPolygonsCount() const { return root ? root->getPolygons().size() : 0; }
 
     // Check if the tree is empty
     bool isEmpty() const { return root == nullptr; }

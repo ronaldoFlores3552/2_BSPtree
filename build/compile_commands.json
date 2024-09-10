@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/build",
+  "command": "/usr/bin/g++  -I/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree -g -std=gnu++17 -o CMakeFiles/BSPTreeProject.dir/main.cpp.o -c /home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/main.cpp",
+  "file": "/home/ronaldo/Escritorio/verano/EDA/laboratorio/2_BSPtree/main.cpp"
+}
+]
