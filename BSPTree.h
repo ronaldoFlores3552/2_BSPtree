@@ -2,8 +2,9 @@
 #define BSP_H
 
 #include "DataType.h"
-
-#include "Polygon.h"
+#include "Point.h"
+#include "Line.h"
+#include "Plane.h"
 #include <vector>
 
 class BSPNode

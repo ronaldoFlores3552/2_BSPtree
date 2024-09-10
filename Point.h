@@ -39,11 +39,21 @@ public:
     }
     Point3D operator-(const Point3D &p) const
     {
-        return Point3D(_x - p._x, _y - p._y, _z - p._z);
+        // return Point3D(_x - p._x, _y - p._y, _z - p._z);
+        float a = _x.getValue();
+        float b = p._x.getValue();
+        NType newx = _x - p._x;
+        NType newy = _y - p._y;
+        NType newz = _z - p._z;
+        return Point3D(newx, newy, newz);
     }
     Point3D operator+(const Point3D &p) const
     {
         return Point3D(_x + p._x, _y + p._y, _z + p._z);
+    }
+    Point3D operator/(NType scalar) const
+    {
+        return Point3D(_x / scalar, _y / scalar, _z / scalar);
     }
 
     // Print

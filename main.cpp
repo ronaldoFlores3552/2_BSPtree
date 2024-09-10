@@ -4,9 +4,9 @@
 #include <cmath>
 #include <algorithm>
 #include <iostream>
-// #include "DataType.h"
-// #include "Line.h"
-// #include "Plane.h"
+#include "DataType.h"
+#include "Line.h"
+#include "Plane.h"
 #include "BSPTree.h"
 
 std::random_device rd;
